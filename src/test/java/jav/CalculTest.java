@@ -1,4 +1,6 @@
 
+package jav;
+
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
@@ -10,6 +12,8 @@ public class CalculTest {
 	public void testCalculerSom() {
 	assertEquals(25, calcul.calculerSom(10, 15));
 	}
+	
+	
 	@Test
 	public void testCalculerDiff() {
 	assertEquals(30, calcul.calculerDiff(40, 10));
