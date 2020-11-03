@@ -8,7 +8,7 @@ public class CalculTest {
 
 	@Test
 	public void testCalculerSom() {
-	assertEquals(28, calcul.calculerSom(10, 15));
+	assertEquals(25, calcul.calculerSom(10, 15));
 	}
 	@Test
 	public void testCalculerDiff() {
